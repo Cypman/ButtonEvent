@@ -6,15 +6,9 @@ private:
 	wxButton* xbtn;
 	wxButton* xbtn1;
 	wxButton* xbtn2;
-	wxButton* xbtn3;
-	wxButton* xbtn4; 
-	wxButton* xbtn5; 
-	wxButton* xbtn6;
-	wxButton* xbtn7;
-	wxButton* xbtn8; 
-	wxButton* xbtn9;
-	wxButton* xbtn10; 
-	wxButton* xbtn11;
+	wxButton* xbtn3;	wxButton* xbtn4; 
+	wxButton* xbtn5; 	wxButton* xbtn6;	wxButton* xbtn7;
+	wxButton* xbtn8; 	wxButton* xbtn9;	wxButton* xbtn10; 	wxButton* xbtn11;
 	wxButton* xbtn12;
 	wxButton* xbtn13; 
 	wxButton* xbtn14;
@@ -28,7 +22,7 @@ public:
 	cMain();
 	wxDECLARE_EVENT_TABLE();
 	void OnButtonClick(wxCommandEvent& evt);
-	//~cMain();
+	
 
 };
 
