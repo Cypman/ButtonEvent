@@ -30,7 +30,7 @@ cMain::cMain() :wxFrame(nullptr, wxID_ANY, "ClickButtons", wxPoint(400, 400), wx
 	xbtn4 = new wxButton(this, 154, "7", wxPoint(10, 150), wxSize(80, 80));
 	xbtn5 = new wxButton(this, 155, "8", wxPoint(100, 150), wxSize(80, 80));
 	xbtn6 = new wxButton(this, 156, "9", wxPoint(190, 150), wxSize(80, 80));
-	xbtn7 = new wxButton(this, 157, "/", wxPoint(280, 150), wxSize(80, 80));
+	xbtn7 = new wxButton(this, 157, L"\u03C0", wxPoint(280, 150), wxSize(80, 80));
 	xbtn8 = new wxButton(this, 158, "4", wxPoint(10, 240), wxSize(80, 80));
 	xbtn9 = new wxButton(this, 159, "5", wxPoint(100, 240), wxSize(80, 80));
 	xbtn10 = new wxButton(this, 160, "6", wxPoint(190, 240), wxSize(80, 80));
@@ -72,7 +72,7 @@ void cMain::OnButtonClick(wxCommandEvent& evt) {
 		wtext->AppendText("9");
 		break;
 	}case 157: {
-		wtext->AppendText("/");
+		wtext->AppendText(L"\u03C0");
 		break;
 	}case 158: {
 		wtext->AppendText("4");
