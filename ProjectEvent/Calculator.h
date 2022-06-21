@@ -5,7 +5,7 @@ class Calculator: public wxApp
 {
 public:
 	Calculator();
-	
+	//~Calculator();
 private:
 	cMain* m_calculate = nullptr;
 
