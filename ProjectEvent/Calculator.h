@@ -8,7 +8,7 @@ public:
 	//~Calculator();
 private:
 	cMain* m_calculate = nullptr;
-
+	
 public:
 	virtual bool OnInit();
 

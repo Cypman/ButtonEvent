@@ -1,5 +1,6 @@
 #pragma once
 #include"wx\wx.h"
+#include "ButtonFactory.h"
 class cMain: public wxFrame
 {
 private:
@@ -24,10 +25,15 @@ private:
 	wxButton* xbtn18; 
 	wxButton* xbtn19;
 	wxTextCtrl* wtext;
+	//ButtonFactory* factory = nullptr;
+	
 public:
+		
 	cMain();
 	wxDECLARE_EVENT_TABLE();
 	void OnButtonClick(wxCommandEvent& evt);
+	ButtonFactory factory;
+	
 	//~cMain();
 
 };
